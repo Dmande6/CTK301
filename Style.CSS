@@ -1,0 +1,32 @@
+P {
+color:rgb(0, 255, 51)
+
+}
+
+body { 
+    background-color: blueviolet
+}
+a:hover{
+    color:yellow;
+}
+.best-list{
+    background-color: #4f35cf;
+}
+#day{
+    color:aqua
+}
+#specialid {
+    color: rgb(136, 127, 255);
+    background-color: #cf3573;
+}
+a{
+    color: red;
+}
+
+a:link{
+color: #cf3573;
+}
+
+a:Visited{
+color: green;
+}
