@@ -1,0 +1,57 @@
+
+a:hover{text-decoration: none;
+    color: red;
+}
+
+link{text-decoration: none;
+    color: green;
+    ;
+}
+
+h2{
+    color:blue
+}
+h1{ 
+    color:white
+}
+h3{
+    background-color: yellow;
+}
+h4{
+    background-color: green;
+}
+h5{
+    color:red
+}
+
+a:visted{
+    text-decoration: none;
+}
+.spanstyle{
+    color:yellow
+
+}
+#Thepoisonsky{
+    background-color: aqua;
+
+}
+#Thefiresofpompeii{
+    color:blue
+}
+
+#Inferno{
+    color:red
+}
+.text{
+    background-color: rgb(125, 255, 125);
+
+    
+}
+
+#thedockid{
+    background-color: yellow;
+}
+
+u{
+    text-decoration: none;
+}
