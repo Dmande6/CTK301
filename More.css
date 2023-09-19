@@ -1,0 +1,45 @@
+h1{
+    letter-spacing: 20px;
+    font-weight: normal;
+    font-size: 24px;
+    color: orange;
+    font: italic;
+}
+
+.customtext{ 
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+ text-align: center;
+}
+.fontcombined {
+    font: bold 20px Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body {
+    background-color: #eeeeee;
+    background-image: url(Cybertron-Transformers.jpeg);
+}
+main {
+    background-color: #0000ff;
+}            
+.boxmodel {
+    border: 2px solid #0000ff;
+    padding: 20px 20px 20px 20px;
+    margin: 10px 10px 10px 10px;
+    background-color: aquamarine;
+}
+.zeroout {
+    margin: 0;
+    padding: 0;
+}
+.pwidth {
+    width: 100px;
+}
+.imgbox {
+    border: 20px solid black;
+    padding: 10px 10px 10px 10px;
+    margin: 30px;
+    background-color: #f8d10e;
+}
