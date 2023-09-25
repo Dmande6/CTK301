@@ -1,0 +1,21 @@
+nav ul{
+margin: 0;
+padding: 0%;
+list-style: none;
+}
+nav li a{
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid purple;
+    width: 150px;
+    text-decoration: none;
+    display: block;
+}
+nav li { 
+    display: inline-block;
+}
+nav li a{
+    border: 1px solid #544;
+    background-image: linear-gradient(to bottom, #555,#123,
+    #123412, #999 );
+}
