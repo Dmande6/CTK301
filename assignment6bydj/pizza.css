@@ -1,0 +1,82 @@
+body {
+        background-color: #eeeeee;
+        background-image: url(a62.png); }
+
+#wrapper {
+    margin: 1em auto;
+    padding: 1em;
+    width: 960px;
+    border: 5px solid black;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns:repeat(1,12fr);
+    grid-template-rows: 1fr;
+}
+
+
+  #floating {
+    float:left;
+    padding: 1em;
+    border: 5px solid black;
+   }  
+#hover{
+    margin: 1em auto;
+    padding: 1em;
+    width: 0;
+    display: grid;
+}
+   nav li a{
+    border: 1px solid rgb(236, 21, 21);
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-decoration: none;
+    display: block;
+    background-image: linear-gradient(to bottom, #d31414,rgb(228, 22, 22),
+    #ed1b1b, #db0d0d );
+    color: #ffffff;
+    
+
+  }
+  h1 {
+    grid-column: span 3;
+    border: 2px solid black;
+    text-decoration: solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+  }
+  
+  nav ul{
+    margin: 0;
+    padding: 0%;
+    list-style: none;
+    }
+  
+  main {
+    grid-column: span 9;
+  }
+  
+  footer {
+    grid-column: span 12;
+    color: #ff0000;
+  }
+  a:hover{
+    color: rgb(84, 0, 0);
+    
+
+  }
+  nav li{
+
+    width: 200px;
+    padding: 10px;
+      
+  }
+
+  
+  footer {
+    grid-column: span 3;
+    border: 1px solid #000;
+    background-color: #d31414;
+    text-align: center;
+    padding: 12px;
+  }
