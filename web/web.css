@@ -1,0 +1,21 @@
+body {
+    background-color: #999999;
+    background-image: url(360_F_189773532_zo9yyjOK0WLNzZ7Gbz7I1cxUpvzGWeEL.jpg);
+  }
+  
+  #wrapper {
+    margin: 24px auto;
+    width: 1200px;
+    border: 1px solid black;
+    padding: 24px;
+    background-color: #ffffff;
+    display: grid;
+  }
+  
+  .roundedbox {
+    padding: 10px;
+    width: 250px;
+    border: 2px solid #999;
+    background-color: #ccc;
+    border-radius: 10px;
+  }
