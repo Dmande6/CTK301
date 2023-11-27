@@ -10,11 +10,27 @@ body {
     background-color: #ffffff;
     padding: 1em;
   }
-  .f-carousel__slide {
+ 
+ 
+  #darthCarousel {
+    margin-bottom: 24px;
+  }
+  
+  #darthCarousel .f-carousel__slide {
     text-align: center;
-    padding: 24px;
+    padding: 30px;
     background: #eee;
   }
-  #wrapper2 {
-   
+  #darthCarousel .f-carousel__slide img {
+width: 100%;
   }
+  #wrapper2{
+    width: 960px;
+    border: 1px solid black;
+    background-color: #ffffff;
+    padding: 0em;
+  }
+  #secondCarousel .f-carousel__slide img{
+    width: 100%;
+  }
+  

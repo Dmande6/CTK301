@@ -1,71 +1,80 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="UTF-8">
-<title>Dwayne's Portfolio</title>
+  <meta charset="UTF-8">
+  <title>Dwayne's Portfolio</title>
   <link rel="stylesheet" href="port.css">
-  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
-<div id = "wrapper">
-	<div>
-	<h1>WELCOME ALL STAR WARS FANS TO THE LIGHTSABER WORKSHOP</h1>
-  <h2> From Darth Vader's Lightsaber, to even the smallest like Yodas, All can be found here</h2>
-	
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+</head>
   
-  </a>
-    <nav>
-     <h3>Here you can find information about lightsabers, buy one, and even talk about the lightsaber fanclub to other Star Wars fans. You can also trade off sabers with verified members so you can become a true master of the force. As General Grevious would put it, these lightsabers will make a fine addition to your collection! 
-      </h3>
-    <ol>
+  <div id="wrapper">
+    <div>
+      <h1>WELCOME ALL STAR WARS FANS TO THE LIGHTSABER WORKSHOP</h1>
+      <h2> From Darth Vader's Lightsaber, to even the smallest like Yodas, All can be found here</h2>
 
-      <li>Find out which lightsaber fits your preference</li> 
-      <li>Trade and find other lightsabers with the Star Wars community </li>
-      <li>Choose a side, the light or the dark, and help defend your place in the galaxy</li>
-      <li>Shipping and processing is free when you spend more than $66</li>
 
-    </ol>
-	
+      </a>
+      <nav>
+        <h3>Here you can find information about lightsabers, buy one, and even talk about the lightsaber fanclub to
+          other Star Wars fans. You can also trade off sabers with verified members so you can become a true master of
+          the force. As General Grevious would put it, these lightsabers will make a fine addition to your collection!
+        </h3>
+        <ol>
+
+          <li>Find out which lightsaber fits your preference</li>
+          <li>Trade and find other lightsabers with the Star Wars community </li>
+          <li>Choose a side, the light or the dark, and help defend your place in the galaxy</li>
+          <li>Shipping and processing is free when you spend more than $66</li>
+
+        </ol>
+
       </nav>
-	  
+
 <body>
   <div id="wrapper2">
-    
-  <h2>Lightside selection</h2>
-  <div id="secondCarousel" class="f-carousel">
-    <div class="f-carousel__slide"><img src="yoda.jpg"></div>
-    <div class="f-carousel__slide"><img src="Unknown.jpg"></div>
-    <div class="f-carousel__slide"><img src="obiwan.jpg"></div>
-
-  <h3>Darkside selection</h3>
-  <div id="secondCarousel" class="f-carousel">
-    <div class="f-carousel__slide"><img src="Darthreplica.webp"></div>
-    <div class="f-carousel__slide"><img src="maul.webp"></div>
-    <div class="f-carousel__slide"><img src="dooku.jpg"></div>
 </div>
-  <script>   
-   Fancybox.bind("[data-fancybox]", {});
-   const container2 = document.getElementById("secondCarousel");
-    const options2 = { infinite: false };
-    new Carousel(container2, options2);
-    const container2 = document.getElementById("secondCarousel");
-    const options2 = { infinite: false };
-    new Carousel(container2, options2);
-</script>
+    <h2>Lightside selection</h2>
+    <div id="secondCarousel" class="f-carousel">
+      <div class="f-carousel__slide"><img src="yoda.jpg"></div>
+      <div class="f-carousel__slide"><img src="Unknown.jpg"></div>
+      <div class="f-carousel__slide"><img src="obiwan.jpg"></div>
+    </div>
+    <h3>Darkside selection</h3>
+    <div id="darthCarousel" class="f-carousel">
+      <div class="f-carousel__slide"><img src="Darthreplica.webp"></div>
+      <div class="f-carousel__slide"><img src="maul.webp"></div>
+      <div class="f-carousel__slide"><img src="dooku.jpg"></div>
+    </div>
 
-    <a href="https://saberforge.com/collections/lgt-sabers" target="_blank" style="padding: 20pt;">CLICK HERE TO BUY A LIGHTSABER</a>
-      <a href="https://www.buzzfeed.com/igrace97/which-lightsaber-colour-would-fit-your-personality-6nup09immy" target="_blank" style="padding: 20pt;">CLICK HERE TO TAKE A QUIZ ON WHAT LIGHTSABER FITS YOU</a>
+    <a href="https://saberforge.com/collections/lgt-sabers" target="_blank" style="padding: 20pt;">CLICK HERE TO BUY A
+      LIGHTSABER</a>
+    <a href="https://www.buzzfeed.com/igrace97/which-lightsaber-colour-would-fit-your-personality-6nup09immy"
+      target="_blank" style="padding: 20pt;">CLICK HERE TO TAKE A QUIZ ON WHAT LIGHTSABER FITS YOU</a>
     <a href="https://www.StarWars.com" target="_blank" style="padding: 2pt;">CLICK HERE TO BINGE SOME STAR WARS</a>
-</body>
+</div>
+  </body>
 <footer>
   Contact me at dmande6@ilstu.edu or dwayneandeoon002@gmail.com
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-  <a href="https://twitter.com/venommmvoices84" target="_blank" class="bi bi-twitter-x">
- 
+  <a href="https://twitter.com/venommmvoices84" target="_blank" class="bi-twitter-x">
+
 </footer>
-	</div>
-</body>
-</html>
+</div>
+
+<script>
+  // Fancybox.bind("[data-fancybox]", {});
+  const container2 = document.getElementById("secondCarousel");
+  const options2 = { infinite: false };
+  new Carousel(container2, options2);
+
+  const container = document.getElementById("darthCarousel");
+  const options = { infinite: false };
+  new Carousel(container, options);
+</script>
 
 
 </body>
+
 </html>
