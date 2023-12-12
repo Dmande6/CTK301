@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Dwayne's Portfolio</title>
+  <link rel="stylesheet" href="port.css">
+  <div id="pages">
+    <li><a href=".html" target="_blank">Welcome Page</a></li>
+    <li><a href="portfolio.html" target="_blank">Lightsaber Site</a></li>
+    <li><a href="contact.html" target="_blank">Contact Me</a></li>
+    </div>
+    <div id="wrapper">
+        <div>
+          <h1>WELCOME TO MY WEBPAGE</h1>
+          <h2> My name is Dwayne Anderson and I have decided to make a Star Wars themed page! Here are some facts about me</h2>
+    
+    
+          </a>
+          <nav>
+            <h3>I have always been a big nerd on many franchises like Marvel, DC, and Star Wars. Even a few of my alltime favoirite movies are apart of these franchises like 'Spider-Man:Into the Spider-verse' and "The Batman". What I wanted to do was create a cool website based on the world of Star Wars, as if you were in that world buying something online. 
+            </h3>
+            <ol>
+                Some of my work I have done in the past was creating video game videos for YouTube. During the 2020 lockdown, I used this time to make videos with me and my friends just to kill time. I would use powerdirector to help me make them and pull images from the internet to put new type of humor into it. The first video I ever created for YouTube was a recreation of a famous Star Wars moment in a video game. 
+    
+            </ol>
+    
+          </nav>
+          <div id="darthCarousel" class="f-carousel">
+            <div class="f-carousel__slide"><img src="ashoka.png"></div>
+            <div class="f-carousel__slide"><img src="fort.png"></div>
+            <div class="f-carousel__slide"><img src="miles.png"></div>
+          </div>
+</body>
+<script>
+  // Fancybox.bind("[data-fancybox]", {});
+  const container2 = document.getElementById("secondCarousel");
+  const options2 = { infinite: false };
+  new Carousel(container2, options2);
+
+  const container = document.getElementById("darthCarousel");
+  const options = { infinite: false };
+  new Carousel(container, options);
+</script>
+
+
+</html>
